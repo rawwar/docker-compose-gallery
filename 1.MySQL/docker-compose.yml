@@ -17,3 +17,5 @@ services:
 
 volumes:
   localdb:
+  
+# Docker run command - docker run -d --rm -e MYSQL_DATABASE='db' -e MYSQL_USER='user' -e MYSQL_PASSWORD='pass' -e MYSQL_ROOT_PASSWORD='rootpass' -p 3306:3306 --name mysql_local mysql
